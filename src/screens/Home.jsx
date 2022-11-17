@@ -9,7 +9,7 @@ export default function Home({ navigation }) {
       <View>
         <TouchableOpacity
           style={styles.botao}
-          onPress={() => navigation.navigate("Mongagua")}
+          onPress={() => navigation.navigate("Cidades")}
         >
           <Text style={styles.txtBotao}>Cidades</Text>
         </TouchableOpacity>
